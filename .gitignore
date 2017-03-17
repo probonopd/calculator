@@ -42,3 +42,14 @@ QuotaManager
 QuotaManager-journal
 TransportSecurity
 databases/
+
+# Snapcraft
+parts/
+prime/
+stage/
+*.snap
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
